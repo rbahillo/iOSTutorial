@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface IAViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *timeLabel;
+@property (weak, nonatomic) IBOutlet UIButton *modeButton;
+- (IBAction)toggleMode:(id)sender;
 
 @end
